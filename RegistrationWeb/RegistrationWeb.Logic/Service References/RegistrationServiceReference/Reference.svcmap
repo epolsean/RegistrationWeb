@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d9d40cbc-8313-464d-95cf-d63848e1f35b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://34.192.6.56/RegistrationData/RegistrationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RegistrationService1.wsdl" MetadataType="Wsdl" ID="61e7ccd6-5fb0-4fcf-9fe1-d20a4b1cdee8" SourceId="1" SourceUrl="http://34.192.6.56/RegistrationData/RegistrationService.svc?wsdl" />
+    <MetadataFile FileName="RegistrationService3.xsd" MetadataType="Schema" ID="37abef51-997d-4c5f-b10b-5a0331d277c7" SourceId="1" SourceUrl="http://34.192.6.56/RegistrationData/RegistrationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RegistrationService31.xsd" MetadataType="Schema" ID="0bd8acc7-923c-409b-94f0-1ff3b781a045" SourceId="1" SourceUrl="http://34.192.6.56/RegistrationData/RegistrationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RegistrationService32.xsd" MetadataType="Schema" ID="20add7f8-2a63-4cc4-a6de-53d3250d2cf7" SourceId="1" SourceUrl="http://34.192.6.56/RegistrationData/RegistrationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RegistrationService1.disco" MetadataType="Disco" ID="5f4faaeb-b476-4a71-96e3-4ad13ae3743a" SourceId="1" SourceUrl="http://34.192.6.56/RegistrationData/RegistrationService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
