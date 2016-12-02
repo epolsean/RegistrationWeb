@@ -192,17 +192,6 @@ namespace RegistrationWeb.Tests
         }
 
         [Fact]
-        public void Test_AddPersonType()
-        {
-            var service = new DataService();
-            var personType = new PersonTypeDAO() { Type = "Test", Active = true };
-
-            var actual = service.AddPersonType(personType);
-
-            Assert.True(actual);
-        }
-
-        [Fact]
         public void Test_RegisterCourse()
         {
             var service = new DataService();
